@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CliMarte</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Informacion sobre el clima en Marte">
+        <link rel="icon" href="../Imagenes/IconoMarte.ico">
+        <link rel="stylesheet" type="text/css" href="../CSS/estiloPaginaPrincipal.css">
+    </head>
+    <body>
+        <header>
+            <div class="contenedorEncabezado">
+                <label for="idBotonMenu" class="boton">
+                    <img src="../Imagenes/menu.png" class="imagenesHeader listaImagenes">
+                </label>
+				<h1 id=titulo>Cli<span>Marte</span></h1>
+                <img src= "../Imagenes/IconoMarte.ico" class="imagenesHeader imagenLogo">
+			</div>
+        </header>
+        <nav class="navMenu">   
+            <input type="checkbox" id="idBotonMenu">
+            <ul class="menuPrincipal">
+                <li class = "listaMenu">
+                    <div class = "itemMenu">
+                        <img src= "../Imagenes/imagenTelescopio.png" class="listaImagenes" >
+                        <a href="index.html" class="opcionesMenu">Inicio</a>
+                    </div>
+                </li>
+                <li class="listaMenu">
+                    <div class ="itemMenu">
+                        <img src = "../Imagenes/imagenAsteroides.png" class="listaImagenes">
+                        <a href ="unaDirec" class="opcionesMenu">Historial</a>
+                    </div>
+                </li>
+                <li class="listaMenu">
+                    <div class ="itemMenu">
+                        <img src="../Imagenes/imagenBandera.png" class="listaImagenes">
+                        <a href="https://www.nasa.gov/" class="opcionesMenu">NASA</a>
+                    </div>
+                </li>
+                <li class="listaMenu listaMenuInterno">
+                    <div class ="itemMenu itemsSubMenu">
+                        <img src="../Imagenes/imagenAstronauta.png" class="listaImagenes">
+                        <a class="opcionesMenu">APIS</a>
+                        <img src="../Imagenes/imagenFlecha.png" class="listaFecha">
+                    </div>
+                    <ul class="listaSubMenu">
+                        <li class="itemSubMenu">
+                            <a href="0" class="opcionesMenu opcionesMenuInterno">APOD</a>
+                        </li>
+                        <li class="itemSubMenu">
+                            <a href="0" class="opcionesMenu opcionesMenuInterno">InSight</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <footer>
+            <div class="contenedorFooter">
+                <!--Falta definir-->
+            </div>
+        </footer>
+        <script src="../script.js"></script>
+    </body>
+</html>
