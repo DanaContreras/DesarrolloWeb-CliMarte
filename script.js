@@ -17,22 +17,21 @@ listaMenu.forEach(cadaItem =>{
     })
 })
 
-/*const contador = document.querySelectorAll('.contador');
-const tiempo = 200;
 
-contador.forEach(contador => {
-    const actualizarContador = () => {
-        const puntero= + contador.getAttribute('dato-puntero');
-        const cuenta = +contador.innerText;
-        const inc = puntero / tiempo;
+/*Animación para los valores principales que se muestran por pantalla. Conteo animado.*/
+const contadores = document.querySelectorAll('.valorContador');
+const tiempoTotal = 30;
 
-        if (cuenta < puntero){
-            contador.innerText = cuenta + inc;
-            setTimeout(undateCount, 1);
-        }else{
-            cuenta.innerText = puntero;
-        }
-    }
+contadores.forEach(contador=> {
+        let numActual = 0;
+        const puntero = contador.getAttribute('valor');
+        
+        let tiempo = setInterval(() =>{
+            contador.textContent = numActual += 1;
+
+            if(numActual == puntero){
+                clearInterval(tiempo);
+            }
+
+        }, tiempoTotal);
 })
-
-*/

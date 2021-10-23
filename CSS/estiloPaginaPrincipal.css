@@ -57,6 +57,7 @@ span{
 .navMenu{
     width: 100%;
     transition: 0.5s;
+    position: absolute;
 }
 
 /*El check no se muestra,utilizado para el icono de menu*/
