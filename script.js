@@ -24,10 +24,15 @@ const tiempoTotal = 30;
 
 contadores.forEach(contador=> {
         let numActual = 0;
+        let increm = 1;
         const puntero = contador.getAttribute('valor');
         
         let tiempo = setInterval(() =>{
-            contador.textContent = numActual += 1;
+            if(puntero < 0){
+                increm = -1
+            }
+
+            contador.textContent = numActual += increm;
 
             if(numActual == puntero){
                 clearInterval(tiempo);

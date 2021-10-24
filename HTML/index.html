@@ -48,17 +48,79 @@
                                 <a href="0" class="opcionesMenu opcionesMenuInterno">APOD</a>
                             </li>
                             <li class="itemSubMenu">
-                                <a href="0" class="opcionesMenu opcionesMenuInterno">InSight</a>
+                                <a href="https://api.nasa.gov/assets/insight/InSight%20Weather%20API%20Documentation.pdf" class="opcionesMenu opcionesMenuInterno">InSight</a>
                             </li>
                         </ul>
                     </li>
                 </ul>
             </nav>
         </header>
-        <footer>
-            <div class="contenedorFooter">
-                <!--Falta definir-->
+        <div id="contenedorInfoPrincipal">
+            <div id="infoPrincipal">
+                <span class="valorTemperatura valorContador" valor="-58">0</span>
+                <span class="valorTemperatura">°C</span>
+                <span id="valorDiaSolar">Sol 568 </span>
             </div>
+            <a href="#ubicacion" id="lugar" >Elysium Planitia</a>
+        </div>
+        <div id= contenedorInfoSecundaria>
+            <div class="infoSecundaria">
+                <h2 class="tituloInfo">Temperatura atmosférica</h2>
+                <img src="../Imagenes/imagenTemperatura.png" class="iconosInformacion">
+                <h3 class="dato datoSuperior">Promedio: -58°C</h3>
+                <h3 class="dato">Min: -74°C</h3>
+                <h3 class="dato">Max: -32°C</h3>
+            </div>
+            <div class="infoSecundaria">
+                <h2 class="tituloInfo">Presión atmosférica</h2>
+                <img src="../Imagenes/imagenPresionAtmosferica.png" class="iconosInformacion">
+                <h3 class="dato datoSuperior">Promedio: 761.006 Pa</h3>
+                <h3 class="dato">Min:  742.1498 Pa</h3>
+                <h3 class="dato">Max: 780.3891 Pa</h3>
+            </div>
+            <div class="infoSecundaria">
+                <h2 class="tituloInfo">Velocidad del viento</h2>
+                <img src="../Imagenes/imagenViento.png" class="iconosInformacion">
+                <h3 class="dato datoSuperior">Promedio: 4.35 m/s</h3>
+                <h3 class="dato">Min: 0.156 m/s</h3>
+                <h3 class="dato">Max: 17.617 m/s</h3>
+            </div>
+        </div>
+        <dl>
+            <div class="contenedorTermino">
+                <dt class="termino">SOL</dt>
+                <dd class="definicion">El término SOL es usado por los <span>ingenieros de la NASA en las misiones a Marte</span> para referirse a un <span>día solar</span> en Marte.
+                    El día solar marciano es el período entre dos pasos consecutivos del Sol por un meridiano de Marte, y dura 24 horas 39 minutos 35,244 segundos. Es aproximadamente un 3% más largo que el día solar terrestre.
+                </dd>
+            </div>
+            <div class="contenedorTermino">
+                <dt class="termino" id="ubicacion">Elysium Planitia</dt>
+                <dd class="definicion">Situada en los cuadrángulos de Elysium y Aeolis, es una amplia llanura que se extiende a ambos lados del ecuador de Marte.​ Se encuentra al sur de la provincia volcánica de Elysium, la segunda región volcánica más grande del planeta, después de Tharsis.
+                    Elysium alberga volcanes importantes como Elysium Mons, Albor Tholus y Hecates Tholus. Otro volcán más antiguo, el Apollinaris Mons, está situado justo al sur de la parte oriental de Elysium Planitia.
+                    La sonda InSight se encuentra en la región desde el 26 de noviembre de 2018 y es donde se toman las <span>medidas meteorológicas</span>.
+                </dd>
+            </div>
+        </dl>
+        <footer>
+            <div id="contenedorFooter">
+                <div class="infoFooter">
+                    <h2 class="tituloFooter">Sobre nosotros</h2>
+                    <br>
+                    <h3>Nuestra misión es difundir sobre los diferentes datos metereológicos que provee la NASA en la misión InSight.</h3>
+                </div>
+                <div class="infoFooter">
+                    <h2 class="tituloFooter">Desarrolladores</h2>
+                    <ul>
+                        <li>
+                            <a class="nombre" href="https://github.com/GastonVerussa">Gastón Verussa</a>
+                        </li>
+                        <li>
+                            <a class="nombre" href="https://github.com/DanaContreras">Dana Contreras</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <h3 id="copyrigth">Copyright © 2021. Todos los derechos reservados.</h2>
         </footer>
         <script src="../script.js"></script>
     </body>
