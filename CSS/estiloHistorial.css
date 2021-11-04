@@ -150,25 +150,62 @@ span{
     height: 0;
 }
 
+/*Contenedor subHeader*/
+
+#contenedorSubHeader{
+    background-image: url(../Imagenes/estrellasFondo.jpg);
+    height: calc(45vh);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    line-height: calc(45vh);
+}
+
+.gifMarte{
+  position: absolute;
+  right: 0px;
+  height: calc(45vh);
+  width: auto;
+}
+
+.subtitulo{
+    color: var(--color-naranja);
+    font-size: 70px;
+    text-decoration: none;
+    margin-left: 5%;
+}
+
 /*INFORMACIÓN Elemento*/
 
+#ContenedorTabla{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 #contenedorInfoElemento{
-    width: 94%;
+    width: 96%;
     height: auto;
-    margin-left: 3%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgb(17, 23, 36);
-    justify-content:space-around;
+    justify-content: space-around;
     flex-grow: wrap;
     border-radius: 5%;
     transition: 0.5s;
+    border-color: var(--color-gris);
+    border-width: 0.5em;
+    border-style: outset;
+    margin-top: 10px;
+    margin-bottom: 10px
 }
 
 .infoElemento{
     height: 400px;
-    width: 25%;
+    width: 20%;
     margin: 20px;
     text-align: center;
     border-radius: 5%;
@@ -184,11 +221,6 @@ span{
     font-size: 30px;
     margin-top: 20px;
     opacity: 1;
-}
-
-.iconosInformacion{
-    margin-top: 50px;
-    height: 30%;
 }
 
 .dato{
@@ -354,12 +386,6 @@ li{
 
     .datoSuperior{
         margin-top: 0;
-    }
-
-    .iconosInformacion{
-        margin-top: 30px;
-        margin-bottom: 30px;
-        height: 15%;
     }
 
     /*FOOTER*/
