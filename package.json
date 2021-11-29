@@ -1,0 +1,27 @@
+{
+  "name": "tp2-climarte",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanaContreras/DesarrolloWeb-CliMarte.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanaContreras/DesarrolloWeb-CliMarte/issues"
+  },
+  "homepage": "https://github.com/DanaContreras/DesarrolloWeb-CliMarte#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
