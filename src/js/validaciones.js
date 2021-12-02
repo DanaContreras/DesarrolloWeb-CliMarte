@@ -1,6 +1,5 @@
-
-let verificarFormatoFecha = function (fecha) {
-    // Verifica que el formato sea valido. 'YY/MM/DD'
+const verificarFormatoFecha = function (fecha) {
+    // Verifica que el formato sea valido. 'YYYY/MM/DD'
 
     let verificacion = false;
     let formato = /^(\d{4})[-](\d{1,2})[-](\d{1,2})$/.exec(fecha);
@@ -9,13 +8,13 @@ let verificarFormatoFecha = function (fecha) {
     if (fecha.length === 10 && formato !== null){
 
         let parte = fecha.split("-");
-        var anio = parseInt(parte[0]);
-        var mes = parseInt(parte[1]);
-        var dia = parseInt(parte[2]);
+        let anio = parseInt(parte[0]);
+        let mes = parseInt(parte[1]);
+        let dia = parseInt(parte[2]);
 
         // Verifica que dia, mes, año, solo sean numeros
-        verificacion = !(isNaN(dia) || isNaN(mes) || isNaN(anio));
-
+        verificacion = !((isNaN(dia) || isNaN(mes) || isNaN(anio)));
+     
         if (verificacion){
 
             let fechaMax = new Date();
@@ -30,12 +29,30 @@ let verificarFormatoFecha = function (fecha) {
             if (fechaConFormato < fechaMin || fechaConFormato > fechaMax )
                 verificacion = false;
         }
-
+ 
     }
 
     return verificacion;
 };
 
+const transformarAFormatoFecha = function(fecha){
+    // Transforma un string en formato Date.
+    let parte = fecha.split("-");
+    let anio = parseInt(parte[0]);
+    let mes = parseInt(parte[1]);
+    let dia = parseInt(parte[2]);
+
+    return (new Date(anio, mes-1, dia));
+}
+
+const verificarRangoFechas = function(fechaInicio, fechaFin){
+    // Verifica si el rango es valido.
+    let fechaI = transformarAFormatoFecha(fechaInicio);
+    let fechaF = transformarAFormatoFecha(fechaFin);
+    return (fechaI < fechaF);
+}
+
 module.exports = {
-    verificarFormatoFecha
+    verificarFormatoFecha,
+    verificarRangoFechas
 };
