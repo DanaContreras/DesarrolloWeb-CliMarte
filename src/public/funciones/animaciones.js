@@ -1,23 +1,31 @@
 const efectoMenuDesplegable = () => {
-
     /*Cada vez que se hace click en la fecha del menu, aparece un submenu plegable */
-    let listaMenu = document.querySelectorAll('.itemsSubMenu');
+    let header = document.querySelector('header');
 
-    listaMenu.forEach(cadaItem => {
+    let observer = new MutationObserver(() => {
 
-        /*Se registra un click en la imagen */
-        cadaItem.addEventListener('click', () => {
-            cadaItem.classList.toggle('flecha'); /*Animacion en imagen*/
+        let listaMenu = document.getElementsByClassName('itemsSubMenu')
+        let max = listaMenu.length;
+        for (let i = 0; i < max; i++) {
 
-            let altura = 0;
-            let menuInterno = cadaItem.nextElementSibling;
-
-            if (menuInterno.clientHeight === 0) {
-                altura = menuInterno.scrollHeight; /*Altura minima de un elemento para evitar desborde*/
-            }
-            menuInterno.style.height = altura + 'px';
-        })
+            const cadaItem = listaMenu[i];
+            /*Se registra un click en la imagen */
+            cadaItem.addEventListener('click', () => {
+                cadaItem.classList.toggle('flecha'); /*Animacion en imagen*/
+    
+                let altura = 0;
+                let menuInterno = cadaItem.nextElementSibling;
+    
+                if (menuInterno.clientHeight === 0) {
+                    altura = menuInterno.scrollHeight; /*Altura minima de un elemento para evitar desborde*/
+                }
+                menuInterno.style.height = altura + 'px';
+            })
+        }  
     })
+
+    observer.observe (header, {attributes: true, childList: true, subtree: true});
+    
 }
 
 const efectoConteo = () => {

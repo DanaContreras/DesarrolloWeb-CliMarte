@@ -5,56 +5,12 @@
         <meta charset="utf-8">
         <meta name="description" content="Informacion sobre el clima en Marte">
         <link rel="icon" href="../imagenes/IconoMarte.ico">
+        <link rel="stylesheet" type="text/css" href="../css/estiloHeader.css">
         <link rel="stylesheet" type="text/css" href="../css/estiloPaginaPrincipal.css">
+        <link rel="stylesheet" type="text/css" href="../css/estiloFooter.css">
     </head>
     <body>
-        <header>
-            <div class="contenedorEncabezado">
-                <label for="idBotonMenu" class="boton">
-                    <img src="../imagenes/menu.png" class="imagenesHeader listaImagenes">
-                </label>
-				<h1 id=titulo>Cli<span>Marte</span></h1>
-                <img src= "../imagenes/IconoMarte.ico" class="imagenesHeader imagenLogo">
-			</div>
-            <nav class="navMenu">
-                <input type="checkbox" id="idBotonMenu">
-                <ul class="menuPrincipal">
-                    <li class = "listaMenu">
-                        <div class = "itemMenu">
-                            <img src= "../imagenes/imagenTelescopio.png" class="listaImagenes" >
-                            <a href="/" class="opcionesMenu">Inicio</a>
-                        </div>
-                    </li>
-                    <li class="listaMenu">
-                        <div class ="itemMenu">
-                            <img src = "../imagenes/imagenAsteroides.png" class="listaImagenes">
-                            <a href ="/historial" class="opcionesMenu">Historial</a>
-                        </div>
-                    </li>
-                    <li class="listaMenu">
-                        <div class ="itemMenu">
-                            <img src="../imagenes/imagenBandera.png" class="listaImagenes">
-                            <a href="https://www.nasa.gov/" class="opcionesMenu">NASA</a>
-                        </div>
-                    </li>
-                    <li class="listaMenu listaMenuInterno">
-                        <div class ="itemMenu itemsSubMenu">
-                            <img src="../imagenes/imagenAstronauta.png" class="listaImagenes">
-                            <a class="opcionesMenu">APIS</a>
-                            <img src="../imagenes/imagenFlecha.png" class="listaFlecha">
-                        </div>
-                        <ul class="listaSubMenu">
-                            <li class="itemSubMenu">
-                                <a href="0" class="opcionesMenu opcionesMenuInterno">APOD</a>
-                            </li>
-                            <li class="itemSubMenu">
-                                <a href="https://api.nasa.gov/assets/insight/InSight%20Weather%20API%20Documentation.pdf" class="opcionesMenu opcionesMenuInterno">InSight</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+        <header id="header"></header>
         <div id="contenedorInfoPrincipal">
             <div id="infoPrincipal">
                 <span class="valorTemperatura valorContador" valor="-58">0</span>
@@ -63,7 +19,7 @@
             </div>
             <a href="#ubicacion" id="lugar" >Elysium Planitia</a>
         </div>
-        <div id= contenedorInfoSecundaria>
+        <div id="contenedorInfoSecundaria">
             <div class="infoSecundaria">
                 <h2 class="tituloInfo">Temperatura atmosférica</h2>
                 <img src="../imagenes/imagenTemperatura.png" class="iconosInformacion">
@@ -101,28 +57,10 @@
                 </dd>
             </div>
         </dl>
-        <footer>
-            <div id="contenedorFooter">
-                <div class="infoFooter">
-                    <h2 class="tituloFooter">Sobre nosotros</h2>
-                    <br>
-                    <h3>Nuestra misión es difundir sobre los diferentes datos metereológicos que provee la NASA en la misión InSight.</h3>
-                </div>
-                <div class="infoFooter">
-                    <h2 class="tituloFooter">Desarrolladores</h2>
-                    <ul>
-                        <li>
-                            <a class="nombre" href="https://github.com/GastonVerussa">Gastón Verussa</a>
-                        </li>
-                        <li>
-                            <a class="nombre" href="https://github.com/DanaContreras">Dana Contreras</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <h3 id="copyrigth">Copyright © 2021. Todos los derechos reservados.</h2>
-        </footer>
-        <script src="../funciones/animaciones.js"></script>
+        <footer></footer>
+        <script src="../funciones/header.js"></script>
+        <script src="../funciones/footer.js"></script>
         <script src="../funciones/api.js"></script>;
+        <script src="../funciones/animaciones.js"></script>
     </body>
 </html>

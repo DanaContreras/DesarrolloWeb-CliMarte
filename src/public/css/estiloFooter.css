@@ -1,0 +1,113 @@
+/*Variables para los colores*/
+:root{
+    --color-azul-oscuro: rgb(1, 1, 22);
+    --color-naranja: rgb(212, 100, 34);
+}
+
+/*FOOTER*/
+footer{
+    width: 100%;
+    height: auto;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to right, var(--color-naranja) 20%, rgb(23, 31, 48) 100%);
+}
+
+#contenedorFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.infoFooter{
+    height: 85px;
+    width: 90%;
+    margin: 40px 40px 40px 0;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.tituloFooter{
+    color: var(--color-azul-oscuro);
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+h3{
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: small;
+}
+
+li{
+    list-style: none;
+}
+
+.nombre{
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    font-size: small;
+}
+
+.nombre:hover{
+    color: var(--color-azul-oscuro);
+}
+
+#copyrigth{
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive para cambios de tamaño de ventana en Computadora */
+@media screen and (min-width: 700px){
+
+    #contenedorFooter{
+        flex-direction: row;
+    }
+
+    .infoFooter{
+        height: 85px;
+        width: 40%;
+        margin: 40px 40px 40px 0;
+        padding: 20px;
+        padding-bottom: 0;
+    }
+}
+
+/*Responsive para pantalla de celular */
+@media screen and (max-device-width: 768px){
+
+    footer{
+        width: 100%;
+        height: auto;
+    }
+
+    #contenedorFooter{
+        flex-direction: column;
+    }
+
+    .infoFooter{
+        width: 90%;
+        margin: 80px;
+    }
+
+    .tituloFooter{
+        font-size: 50px;
+    }
+
+    h3{
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .nombre{
+        font-size: 35px;
+    }
+
+    #copyrigth{
+        font-size: 10px;
+        margin-top: 20px;
+        padding: 60px;
+    }
+}

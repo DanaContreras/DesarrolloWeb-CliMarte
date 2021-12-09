@@ -1,0 +1,196 @@
+/*Variables para los colores*/
+:root{
+    --color-azul-oscuro: rgb(1, 1, 22);
+    --color-azul: rgb(60, 71, 103);
+    --color-azul-claro: rgb(85, 97, 135);
+    --color-gris: rgb(135, 135, 143);
+    --color-naranja-claro: rgb(236, 141, 85);
+    --color-naranja: rgb(212, 100, 34);
+}
+
+/*HEADER*/
+header{
+    width: 100%;
+    height: 90px;
+    position: relative;
+    background-image: linear-gradient(to right, rgb(23, 31, 48) 20%, var(--color-naranja) 100%);
+}
+
+.contenedorEncabezado{
+    display: flex;
+    align-items: center;
+}
+
+.imagenesHeader{
+    margin: 20px;
+}
+
+#titulo{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+span{
+    color: var(--color-naranja-claro);
+}
+
+.imagenesHeader{
+    width: 50px;
+    margin: 20px;
+}
+
+/*MENU PRINCIPAL*/
+.navMenu{
+    width: 100%;
+    transition: 0.5s;
+    position: absolute;
+    z-index: 1;
+}
+
+/*El check no se muestra,utilizado para el icono de menu*/
+#idBotonMenu{
+    display: none;
+}
+
+/*Se muestra el menu oculto*/
+#idBotonMenu:checked ~ .menuPrincipal{
+    display: block;
+}
+
+/*Estilo de cada opcion del menu*/
+.opcionesMenu{
+    color:rgb(255, 255, 255);
+    display: block;
+    padding: 25px 0;
+    text-decoration: none;
+}
+
+.opcionesMenuInterno{
+    padding-left: 30px;
+    text-align: left;
+}
+
+.opcionesMenuInterno:hover{
+    background: var(--color-naranja-claro);;
+}
+
+/*Lista*/
+.menuPrincipal{
+    width: 100%;
+    display: none;
+    justify-content:flex-start;
+    flex-direction: column;
+    background: rgb(23, 31, 48);
+}
+
+/*Cada contenedor de cada opcion*/
+.listaMenu{
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+/*Color al estar sobre cada conteneder de las opciones*/
+.listaMenu:hover{
+    background: var(--color-naranja);;
+}
+
+.opcionesMenu:hover{
+    color: var(--color-azul-oscuro);
+}
+
+.listaMenuInterno{
+    cursor: pointer;
+}
+
+.itemMenu{
+    display: flex;
+    align-items:center;
+    gap: 1.5em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*Tamaño de iconos*/
+.listaImagenes{
+    width: 40px;
+}
+
+.flecha .listaFlecha{
+    transform: rotate(90deg);
+}
+
+.listaFlecha{
+    width: 15px;
+    margin-left: auto;
+    transition: transform .3s ease-in-out;
+}
+
+.listaSubMenu{
+    width: 75%;
+    margin-left: auto;
+    border-left: 2px solid var(--color-gris);
+    list-style: none;
+    transition: height .5s;
+    height: 0;
+}
+
+@media screen and (min-width: 700px){
+    .navMenu{
+        width: 300px;
+        transition: .5s;
+    }
+}
+
+@media screen and (max-device-width: 768px){
+
+    /*ENCABEZADO*/
+    header{
+        height: 170px;
+    }
+
+    .contenedorEncabezado{
+        height: 100%;
+    }
+
+    .imagenesHeader{
+        width: 80px;
+        margin-left: 50px;
+    }
+
+    .imagenLogo{
+        width: 100px;
+    }
+
+    #titulo{
+        font-size: 75px;
+        margin-left: 50px;
+    }
+
+    .navMenu{
+        width: 100%;
+    }
+
+    .itemMenu{
+        display: flex;
+        align-items:center;
+        gap: 3em;
+        width: 80%;
+        margin: 50px auto;
+    }
+
+    .listaImagenes{
+        width: 100px;
+    }
+
+    .listaFlecha{
+        width: 50px;
+    }
+
+    .opcionesMenu{
+        font-size: 300%;
+    }
+
+}
