@@ -2,7 +2,7 @@ const verificarFormatoFecha = function (fecha) {
     // Verifica que el formato sea valido. 'YYYY/MM/DD'
 
     let verificacion = false;
-    let formato = /^(\d{4})[-](\d{1,2})[-](\d{1,2})$/.exec(fecha);
+    let formato = /^(\d{4})[-](\d{2})[-](\d{2})$/.exec(fecha);
 
     // La longitud de la fecha debe tener exactamente 10 caracteres y el formato especificado
     if (fecha.length === 10 && formato !== null){

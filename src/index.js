@@ -25,5 +25,5 @@ app.use('/api/datosClima', require('./rutas/clima'));
 
 //comenzando servidor.
 app.listen(app.get('port'), () => {
-    console.log(`Server on port ${app.get('port')}`);
+    console.log(`Servidor en puerto ${app.get('port')}`);
 });
