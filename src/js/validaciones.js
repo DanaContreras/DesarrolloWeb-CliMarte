@@ -52,7 +52,19 @@ const verificarRangoFechas = function(fechaInicio, fechaFin){
     return (fechaI < fechaF);
 }
 
+const verificarLimitesIndice = function(largo, cantidad, desde){
+    //Verifica que el desde no sea menor al límite inferior del índice, que la cantidad sea positiva y que la suma de ambos no se pase del límite superior del índice.
+    return desde >= 0 && cantidad > 0 && (cantidad + desde) <= largo;
+}
+
+const verificarSolKey = function(solKeys, solKey){
+    //Verifica que el key o id requerido se encuentre en entro los posibles.
+    return solKeys.includes(solKey);
+}
+
 module.exports = {
     verificarFormatoFecha,
-    verificarRangoFechas
+    verificarRangoFechas,
+    verificarLimitesIndice, 
+    verificarSolKey
 };

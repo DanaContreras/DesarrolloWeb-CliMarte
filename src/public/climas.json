@@ -1,0 +1,814 @@
+{
+  "652": {
+    "AT": {
+      "av": -57.562,
+      "ct": 151231,
+      "mn": -86.153,
+      "mx": -3.894
+    },
+    "First_UTC": "2020-09-27T03:21:55Z",
+    "HWS": {
+      "av": 6.789,
+      "ct": 51954,
+      "mn": 0.591,
+      "mx": 17.696
+    },
+    "Last_UTC": "2020-09-28T04:01:30Z",
+    "Month_ordinal": 10,
+    "Northern_season": "early winter",
+    "PRE": {
+      "av": 861.159,
+      "ct": 1264951,
+      "mn": 820.8469,
+      "mx": 910.511
+    },
+    "Season": "fall",
+    "Southern_season": "early summer"
+  },
+  "653": {
+    "AT": {
+      "av": -62.314,
+      "ct": 177556,
+      "mn": -96.872,
+      "mx": -15.908
+    },
+    "First_UTC": "2020-09-28T04:01:30Z",
+    "HWS": {
+      "av": 7.233,
+      "ct": 88628,
+      "mn": 1.051,
+      "mx": 22.455
+    },
+    "Last_UTC": "2020-09-29T04:41:05Z",
+    "Month_ordinal": 10,
+    "Northern_season": "early winter",
+    "PRE": {
+      "av": 750.563,
+      "ct": 887776,
+      "mn": 722.0901,
+      "mx": 768.791
+    },
+    "Season": "fall",
+    "Southern_season": "early summer"
+  },
+  "654": {
+    "AT": {
+      "av": -62.314,
+      "ct": 177556,
+      "mn": -96.872,
+      "mx": -15.908
+    },
+    "First_UTC": "2020-09-29T04:41:05Z",
+    "HWS": {
+      "av": 7.233,
+      "ct": 88628,
+      "mn": 1.051,
+      "mx": 22.455
+    },
+    "Last_UTC": "2020-09-30T05:20:40Z",
+    "Month_ordinal": 10,
+    "Northern_season": "early winter",
+    "PRE": {
+      "av": 750.563,
+      "ct": 887776,
+      "mn": 722.0901,
+      "mx": 768.791
+    },
+    "Season": "fall",
+    "Southern_season": "early summer"
+  },
+  "655": {
+    "AT": {
+      "av": -62.314,
+      "ct": 177556,
+      "mn": -96.872,
+      "mx": -15.908
+    },
+    "First_UTC": "2020-09-30T05:20:40Z",
+    "HWS": {
+      "av": 7.233,
+      "ct": 88628,
+      "mn": 1.051,
+      "mx": 22.455
+    },
+    "Last_UTC": "2020-10-00T06:00:15Z",
+    "Month_ordinal": 10,
+    "Northern_season": "early winter",
+    "PRE": {
+      "av": 750.563,
+      "ct": 887776,
+      "mn": 722.0901,
+      "mx": 768.791
+    },
+    "Season": "fall",
+    "Southern_season": "early summer"
+  },
+  "656": {
+    "AT": {
+      "av": -62.314,
+      "ct": 177556,
+      "mn": -96.872,
+      "mx": -15.908
+    },
+    "First_UTC": "2020-10-00T06:00:15Z",
+    "HWS": {
+      "av": 7.233,
+      "ct": 88628,
+      "mn": 1.051,
+      "mx": 22.455
+    },
+    "Last_UTC": "2020-10-01T06:39:50Z",
+    "Month_ordinal": 10,
+    "Northern_season": "early winter",
+    "PRE": {
+      "av": 750.563,
+      "ct": 887776,
+      "mn": 722.0901,
+      "mx": 768.791
+    },
+    "Season": "fall",
+    "Southern_season": "early summer"
+  },
+  "657": {
+    "AT": {
+      "av": -62.314,
+      "ct": 177556,
+      "mn": -96.872,
+      "mx": -15.908
+    },
+    "First_UTC": "2020-10-01T06:39:50Z",
+    "HWS": {
+      "av": 7.233,
+      "ct": 88628,
+      "mn": 1.051,
+      "mx": 22.455
+    },
+    "Last_UTC": "2020-10-02T07:19:25Z",
+    "Month_ordinal": 10,
+    "Northern_season": "early winter",
+    "PRE": {
+      "av": 750.563,
+      "ct": 887776,
+      "mn": 722.0901,
+      "mx": 768.791
+    },
+    "Season": "fall",
+    "Southern_season": "early summer"
+  },
+  "658": {
+    "AT": {
+      "av": -62.314,
+      "ct": 177556,
+      "mn": -96.872,
+      "mx": -15.908
+    },
+    "First_UTC": "2020-10-02T07:19:25Z",
+    "HWS": {
+      "av": 7.233,
+      "ct": 88628,
+      "mn": 1.051,
+      "mx": 22.455
+    },
+    "Last_UTC": "2020-10-03T07:59:00Z",
+    "Month_ordinal": 10,
+    "Northern_season": "early winter",
+    "PRE": {
+      "av": 750.563,
+      "ct": 887776,
+      "mn": 722.0901,
+      "mx": 768.791
+    },
+    "Season": "fall",
+    "Southern_season": "early summer"
+  },
+  "659": {
+    "AT": {
+      "av": -62.314,
+      "ct": 177556,
+      "mn": -96.872,
+      "mx": -15.908
+    },
+    "First_UTC": "2020-10-03T07:59:00Z",
+    "HWS": {
+      "av": 7.233,
+      "ct": 88628,
+      "mn": 1.051,
+      "mx": 22.455
+    },
+    "Last_UTC": "2020-10-04T08:38:35Z",
+    "Month_ordinal": 10,
+    "Northern_season": "early winter",
+    "PRE": {
+      "av": 750.563,
+      "ct": 887776,
+      "mn": 722.0901,
+      "mx": 768.791
+    },
+    "Season": "fall",
+    "Southern_season": "early summer"
+  },
+  "660": {
+    "AT": {
+      "av": -62.314,
+      "ct": 177556,
+      "mn": -96.872,
+      "mx": -15.908
+    },
+    "First_UTC": "2020-10-04T08:38:35Z",
+    "HWS": {
+      "av": 7.233,
+      "ct": 88628,
+      "mn": 1.051,
+      "mx": 22.455
+    },
+    "Last_UTC": "2020-10-05T09:18:10Z",
+    "Month_ordinal": 10,
+    "Northern_season": "early winter",
+    "PRE": {
+      "av": 750.563,
+      "ct": 887776,
+      "mn": 722.0901,
+      "mx": 768.791
+    },
+    "Season": "fall",
+    "Southern_season": "early summer"
+  },
+  "661": {
+    "AT": {
+      "av": -62.314,
+      "ct": 177556,
+      "mn": -96.872,
+      "mx": -15.908
+    },
+    "First_UTC": "2020-10-05T09:18:10Z",
+    "HWS": {
+      "av": 7.233,
+      "ct": 88628,
+      "mn": 1.051,
+      "mx": 22.455
+    },
+    "Last_UTC": "2020-10-06T09:57:45Z",
+    "Month_ordinal": 10,
+    "Northern_season": "early winter",
+    "PRE": {
+      "av": 750.563,
+      "ct": 887776,
+      "mn": 722.0901,
+      "mx": 768.791
+    },
+    "Season": "fall",
+    "Southern_season": "early summer"
+  },
+  "662": {
+    "AT": {
+      "av": -62.314,
+      "ct": 177556,
+      "mn": -96.872,
+      "mx": -15.908
+    },
+    "First_UTC": "2020-10-06T09:57:45Z",
+    "HWS": {
+      "av": 7.233,
+      "ct": 88628,
+      "mn": 1.051,
+      "mx": 22.455
+    },
+    "Last_UTC": "2020-10-07T10:37:20Z",
+    "Month_ordinal": 10,
+    "Northern_season": "early winter",
+    "PRE": {
+      "av": 750.563,
+      "ct": 887776,
+      "mn": 722.0901,
+      "mx": 768.791
+    },
+    "Season": "fall",
+    "Southern_season": "early summer"
+  },
+  "663": {
+    "AT": {
+      "av": -62.314,
+      "ct": 177556,
+      "mn": -96.872,
+      "mx": -15.908
+    },
+    "First_UTC": "2020-10-07T10:37:20Z",
+    "HWS": {
+      "av": 7.233,
+      "ct": 88628,
+      "mn": 1.051,
+      "mx": 22.455
+    },
+    "Last_UTC": "2020-10-08T11:16:55Z",
+    "Month_ordinal": 10,
+    "Northern_season": "early winter",
+    "PRE": {
+      "av": 750.563,
+      "ct": 887776,
+      "mn": 722.0901,
+      "mx": 768.791
+    },
+    "Season": "fall",
+    "Southern_season": "early summer"
+  },
+  "664": {
+    "AT": {
+      "av": -62.314,
+      "ct": 177556,
+      "mn": -96.872,
+      "mx": -15.908
+    },
+    "First_UTC": "2020-10-08T11:16:55Z",
+    "HWS": {
+      "av": 7.233,
+      "ct": 88628,
+      "mn": 1.051,
+      "mx": 22.455
+    },
+    "Last_UTC": "2020-10-09T11:56:30Z",
+    "Month_ordinal": 10,
+    "Northern_season": "early winter",
+    "PRE": {
+      "av": 750.563,
+      "ct": 887776,
+      "mn": 722.0901,
+      "mx": 768.791
+    },
+    "Season": "fall",
+    "Southern_season": "early summer"
+  },
+  "665": {
+    "AT": {
+      "av": -62.314,
+      "ct": 177556,
+      "mn": -96.872,
+      "mx": -15.908
+    },
+    "First_UTC": "2020-10-09T11:56:30Z",
+    "HWS": {
+      "av": 7.233,
+      "ct": 88628,
+      "mn": 1.051,
+      "mx": 22.455
+    },
+    "Last_UTC": "2020-10-10T12:36:05Z",
+    "Month_ordinal": 10,
+    "Northern_season": "early winter",
+    "PRE": {
+      "av": 750.563,
+      "ct": 887776,
+      "mn": 722.0901,
+      "mx": 768.791
+    },
+    "Season": "fall",
+    "Southern_season": "early summer"
+  },
+  "666": {
+    "AT": {
+      "av": -62.314,
+      "ct": 177556,
+      "mn": -96.872,
+      "mx": -15.908
+    },
+    "First_UTC": "2020-10-10T12:36:05Z",
+    "HWS": {
+      "av": 7.233,
+      "ct": 88628,
+      "mn": 1.051,
+      "mx": 22.455
+    },
+    "Last_UTC": "2020-10-11T13:15:40Z",
+    "Month_ordinal": 10,
+    "Northern_season": "early winter",
+    "PRE": {
+      "av": 750.563,
+      "ct": 887776,
+      "mn": 722.0901,
+      "mx": 768.791
+    },
+    "Season": "fall",
+    "Southern_season": "early summer"
+  },
+  "667": {
+    "AT": {
+      "av": -62.314,
+      "ct": 177556,
+      "mn": -96.872,
+      "mx": -15.908
+    },
+    "First_UTC": "2020-10-11T13:15:40Z",
+    "HWS": {
+      "av": 7.233,
+      "ct": 88628,
+      "mn": 1.051,
+      "mx": 22.455
+    },
+    "Last_UTC": "2020-10-12T13:55:15Z",
+    "Month_ordinal": 10,
+    "Northern_season": "early winter",
+    "PRE": {
+      "av": 750.563,
+      "ct": 887776,
+      "mn": 722.0901,
+      "mx": 768.791
+    },
+    "Season": "fall",
+    "Southern_season": "early summer"
+  },
+  "668": {
+    "AT": {
+      "av": -62.314,
+      "ct": 177556,
+      "mn": -96.872,
+      "mx": -15.908
+    },
+    "First_UTC": "2020-10-12T13:55:15Z",
+    "HWS": {
+      "av": 7.233,
+      "ct": 88628,
+      "mn": 1.051,
+      "mx": 22.455
+    },
+    "Last_UTC": "2020-10-13T14:34:50Z",
+    "Month_ordinal": 10,
+    "Northern_season": "early winter",
+    "PRE": {
+      "av": 750.563,
+      "ct": 887776,
+      "mn": 722.0901,
+      "mx": 768.791
+    },
+    "Season": "fall",
+    "Southern_season": "early summer"
+  },
+  "669": {
+    "AT": {
+      "av": -62.314,
+      "ct": 177556,
+      "mn": -96.872,
+      "mx": -15.908
+    },
+    "First_UTC": "2020-10-13T14:34:50Z",
+    "HWS": {
+      "av": 7.233,
+      "ct": 88628,
+      "mn": 1.051,
+      "mx": 22.455
+    },
+    "Last_UTC": "2020-10-14T15:14:25Z",
+    "Month_ordinal": 10,
+    "Northern_season": "early winter",
+    "PRE": {
+      "av": 750.563,
+      "ct": 887776,
+      "mn": 722.0901,
+      "mx": 768.791
+    },
+    "Season": "fall",
+    "Southern_season": "early summer"
+  },
+  "670": {
+    "AT": {
+      "av": -62.314,
+      "ct": 177556,
+      "mn": -96.872,
+      "mx": -15.908
+    },
+    "First_UTC": "2020-10-14T15:14:25Z",
+    "HWS": {
+      "av": 7.233,
+      "ct": 88628,
+      "mn": 1.051,
+      "mx": 22.455
+    },
+    "Last_UTC": "2020-10-15T15:54:00Z",
+    "Month_ordinal": 10,
+    "Northern_season": "early winter",
+    "PRE": {
+      "av": 750.563,
+      "ct": 887776,
+      "mn": 722.0901,
+      "mx": 768.791
+    },
+    "Season": "fall",
+    "Southern_season": "early summer"
+  },
+  "671": {
+    "AT": {
+      "av": -62.314,
+      "ct": 177556,
+      "mn": -96.872,
+      "mx": -15.908
+    },
+    "First_UTC": "2020-10-15T15:54:00Z",
+    "HWS": {
+      "av": 7.233,
+      "ct": 88628,
+      "mn": 1.051,
+      "mx": 22.455
+    },
+    "Last_UTC": "2020-10-16T16:33:35Z",
+    "Month_ordinal": 10,
+    "Northern_season": "early winter",
+    "PRE": {
+      "av": 750.563,
+      "ct": 887776,
+      "mn": 722.0901,
+      "mx": 768.791
+    },
+    "Season": "fall",
+    "Southern_season": "early summer"
+  },
+  "672": {
+    "AT": {
+      "av": -62.314,
+      "ct": 177556,
+      "mn": -96.872,
+      "mx": -15.908
+    },
+    "First_UTC": "2020-10-16T16:33:35Z",
+    "HWS": {
+      "av": 7.233,
+      "ct": 88628,
+      "mn": 1.051,
+      "mx": 22.455
+    },
+    "Last_UTC": "2020-10-17T17:13:10Z",
+    "Month_ordinal": 10,
+    "Northern_season": "early winter",
+    "PRE": {
+      "av": 750.563,
+      "ct": 887776,
+      "mn": 722.0901,
+      "mx": 768.791
+    },
+    "Season": "fall",
+    "Southern_season": "early summer"
+  },
+  "673": {
+    "AT": {
+      "av": -62.314,
+      "ct": 177556,
+      "mn": -96.872,
+      "mx": -15.908
+    },
+    "First_UTC": "2020-10-17T17:13:10Z",
+    "HWS": {
+      "av": 7.233,
+      "ct": 88628,
+      "mn": 1.051,
+      "mx": 22.455
+    },
+    "Last_UTC": "2020-10-18T17:52:45Z",
+    "Month_ordinal": 10,
+    "Northern_season": "early winter",
+    "PRE": {
+      "av": 750.563,
+      "ct": 887776,
+      "mn": 722.0901,
+      "mx": 768.791
+    },
+    "Season": "fall",
+    "Southern_season": "early summer"
+  },
+  "674": {
+    "AT": {
+      "av": -62.314,
+      "ct": 177556,
+      "mn": -96.872,
+      "mx": -15.908
+    },
+    "First_UTC": "2020-10-18T17:52:45Z",
+    "HWS": {
+      "av": 7.233,
+      "ct": 88628,
+      "mn": 1.051,
+      "mx": 22.455
+    },
+    "Last_UTC": "2020-10-19T18:32:20Z",
+    "Month_ordinal": 10,
+    "Northern_season": "early winter",
+    "PRE": {
+      "av": 750.563,
+      "ct": 887776,
+      "mn": 722.0901,
+      "mx": 768.791
+    },
+    "Season": "fall",
+    "Southern_season": "early summer"
+  },
+  "675": {
+    "AT": {
+      "av": -62.314,
+      "ct": 177556,
+      "mn": -96.872,
+      "mx": -15.908
+    },
+    "First_UTC": "2020-10-19T18:32:20Z",
+    "HWS": {
+      "av": 7.233,
+      "ct": 88628,
+      "mn": 1.051,
+      "mx": 22.455
+    },
+    "Last_UTC": "2020-10-20T19:11:55Z",
+    "Month_ordinal": 10,
+    "Northern_season": "early winter",
+    "PRE": {
+      "av": 750.563,
+      "ct": 887776,
+      "mn": 722.0901,
+      "mx": 768.791
+    },
+    "Season": "fall",
+    "Southern_season": "early summer"
+  },
+  "676": {
+    "AT": {
+      "av": -62.812,
+      "ct": 177554,
+      "mn": -96.912,
+      "mx": -16.499
+    },
+    "First_UTC": "2020-10-20T19:11:55Z",
+    "HWS": {
+      "av": 8.526,
+      "ct": 88250,
+      "mn": 1.11,
+      "mx": 26.905
+    },
+    "Last_UTC": "2020-10-21T19:51:31Z",
+    "Month_ordinal": 10,
+    "Northern_season": "early winter",
+    "PRE": {
+      "av": 749.09,
+      "ct": 887777,
+      "mn": 722.473,
+      "mx": 767.1426
+    },
+    "Season": "fall",
+    "Southern_season": "early summer"
+  },
+  "677": {
+    "AT": {
+      "av": -63.056,
+      "ct": 177556,
+      "mn": -97.249,
+      "mx": -16.853
+    },
+    "First_UTC": "2020-10-21T19:51:31Z",
+    "HWS": {
+      "av": 7.887,
+      "ct": 88610,
+      "mn": 0.511,
+      "mx": 23.197
+    },
+    "Last_UTC": "2020-10-22T20:31:06Z",
+    "Month_ordinal": 11,
+    "Northern_season": "mid winter",
+    "PRE": {
+      "av": 748.698,
+      "ct": 887776,
+      "mn": 720.5873,
+      "mx": 767.4249
+    },
+    "Season": "fall",
+    "Southern_season": "mid summer"
+  },
+  "678": {
+    "AT": {
+      "av": -62.562,
+      "ct": 177556,
+      "mn": -97.728,
+      "mx": -9.055
+    },
+    "First_UTC": "2020-10-22T20:31:06Z",
+    "HWS": {
+      "av": 5.246,
+      "ct": 86963,
+      "mn": 0.244,
+      "mx": 18.399
+    },
+    "Last_UTC": "2020-10-23T21:10:41Z",
+    "Month_ordinal": 11,
+    "Northern_season": "mid winter",
+    "PRE": {
+      "av": 743.741,
+      "ct": 887777,
+      "mn": 717.7254,
+      "mx": 760.2834
+    },
+    "Season": "fall",
+    "Southern_season": "mid summer"
+  },
+  "679": {
+    "AT": {
+      "av": -62.551,
+      "ct": 177554,
+      "mn": -96.644,
+      "mx": -11.561
+    },
+    "First_UTC": "2020-10-23T21:10:41Z",
+    "HWS": {
+      "av": 5.565,
+      "ct": 87171,
+      "mn": 0.231,
+      "mx": 19.409000000000002
+    },
+    "Last_UTC": "2020-10-24T21:50:16Z",
+    "Month_ordinal": 11,
+    "Northern_season": "mid winter",
+    "PRE": {
+      "av": 744.529,
+      "ct": 887776,
+      "mn": 719.4178,
+      "mx": 763.2724
+    },
+    "Season": "fall",
+    "Southern_season": "mid summer"
+  },
+  "680": {
+    "AT": {
+      "av": -61.789,
+      "ct": 168902,
+      "mn": -96.811,
+      "mx": -15.298
+    },
+    "First_UTC": "2020-10-24T21:50:16Z",
+    "HWS": {
+      "av": 6.517,
+      "ct": 88478,
+      "mn": 0.275,
+      "mx": 24.235
+    },
+    "Last_UTC": "2020-10-25T22:29:51Z",
+    "Month_ordinal": 11,
+    "Northern_season": "mid winter",
+    "PRE": {
+      "av": 743.99,
+      "ct": 887767,
+      "mn": 717.1398,
+      "mx": 764.0093
+    },
+    "Season": "fall",
+    "Southern_season": "mid summer"
+  },
+  "681": {
+    "AT": {
+      "av": -62.434,
+      "ct": 88778,
+      "mn": -95.447,
+      "mx": -4.444
+    },
+    "First_UTC": "2020-10-25T22:29:51Z",
+    "HWS": {
+      "av": 5.632,
+      "ct": 87184,
+      "mn": 0.228,
+      "mx": 18.577
+    },
+    "Last_UTC": "2020-10-26T23:09:26Z",
+    "Month_ordinal": 11,
+    "Northern_season": "mid winter",
+    "PRE": {
+      "av": 743.55,
+      "ct": 887777,
+      "mn": 718.463,
+      "mx": 760.2244
+    },
+    "Season": "fall",
+    "Southern_season": "mid summer"
+  },
+  "sol_keys": [
+    "652",
+    "653",
+    "654",
+    "655",
+    "656",
+    "657",
+    "658",
+    "659",
+    "660",
+    "661",
+    "662",
+    "663",
+    "664",
+    "665",
+    "666",
+    "667",
+    "668",
+    "669",
+    "670",
+    "671",
+    "672",
+    "673",
+    "674",
+    "675",
+    "676",
+    "677",
+    "678",
+    "679",
+    "680",
+    "681"
+  ]
+}
