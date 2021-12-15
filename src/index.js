@@ -29,13 +29,12 @@ app.get('/historial', (req,res) => {
     res.sendFile(path.join(__dirname + '/public/html/historial.html'));
 });
 
-app.use('/api', require('./rutas/imagenes'));
+app.use('/api/imagenes', require('./rutas/imagenes'));
 app.use('/api/datosClima', require('./rutas/clima'));
 
-//Agregar el siguiente use para cuando no existe tal página?
-/*app.use((req, res) => {
+app.use((req, res) => {
     res.status(404).send('Error 404, página no encontrada.');
-})*/
+})
 
 //comenzando servidor.
 app.listen(app.get('port'), () => {
