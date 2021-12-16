@@ -26,7 +26,7 @@ const cargarImagenDelDia = async() =>{
         let dato = await respuesta.json();
         
         // En caso que el dato no sea un video se cambia el fondo del contenedor.
-        if (dato.media_type = "imagen" ){
+        if (dato.media_type == "imagen" ){
             let contenedorImagen = document.getElementById("contenedorInfoPrincipal");
             contenedorImagen.setAttribute("style", "background-image: url(" + dato.url + ");");
         }

@@ -49,6 +49,11 @@ body{
 
 /*INFORMACIÓN Elemento*/
 
+.botones{
+    text-align: center; 
+    font-size: 70px;
+}
+
 #ContenedorTabla{
   display: flex;
   flex-direction: row;
